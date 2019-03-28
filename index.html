@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!--meta tags-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1,">
+      <!--template title-->
+      <title>Isotop Customaization</title>
+      <!-- Bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- Fontawesome CSS -->
+      <link rel="stylesheet" href="css/fontawesome.css">
+      <!-- Custom css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive css -->
+      <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+    <!--========Code Start Here========-->
+    
+
+      <section id="portfolio" class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-12">
+              <div class="text-top">
+                <h1> My Portfolio</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta vel commodi laudantium officiis ipsum, est aliquid dolore omnis facilis molestiae.</p>
+              </div>
+
+                <!-- button section -->
+                <div id="filters" class="button-group">  
+                  <button class="button is-checked" data-filter="*">all works</button>
+                  <button class="button" data-filter=".metal">web design</button>
+                  <button class="button" data-filter=".transition">psd to html</button>
+                  <button class="button" data-filter=".alkali, .alkaline-earth">landing page</button>
+                  <button class="button" data-filter=":not(.transition)">psd to wordpress</button>
+                  <button class="button" data-filter=".metal:not(.transition)">e-commerce</button>
+                </div>
+                <!-- button section -->
+
+                <!-- image section -->
+                <div class="grid">
+                  <div class="element-item transition metal " data-category="transition">
+                    <img src="images/p-2.jpg" alt="portfolio">
+                  </div>
+
+                  <div class="element-item metalloid " data-category="metalloid">
+                    <img src="images/p-2.jpg" alt="portfolio">
+                  </div>
+
+                  <div class="element-item post-transition metal " data-category="post-transition">
+                    <img src="images/p-2.jpg" alt="portfolio">
+                  </div>
+
+                  <div class="element-item post-transition metal " data-category="post-transition">
+                    <img src="images/p-2.jpg" alt="portfolio">
+                  </div>
+
+                  <div class="element-item transition metal " data-category="transition">
+                    <img src="images/p-2.jpg" alt="portfolio">
+                  </div>
+
+                  <div class="element-item alkali metal " data-category="alkali">
+                    <img src="images/p-2.jpg" alt="portfolio">
+                  </div>
+                </div><!-- image section end-->
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--========= all js plugins =========-->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/isotope.min.js"></script>
+      <script src="js/custom.js"></script>
+    </body>
+</html>

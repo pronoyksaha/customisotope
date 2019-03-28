@@ -1,0 +1,11 @@
+
+/*======================================
+  Project:   Responsive - App Landing Page
+  Build:     Bootstrap 4.0.0
+  Author:    Pronoy Saha
+  Version:   1.0
+  
+=========================================*/
+
+*{padding:0;margin:0}img{border:0}body{line-height:normal;font-family:'Open Sans',sans-serif}ol,ul{list-style:none}a,a:focus,a:hover{text-decoration:none;outline:0}#portfolio{background:#760dff;padding-top:50px;padding-bottom:50px}.text-top h1{font-size:40px;font-weight:700;color:#fff}.text-top hr{border:none;border:3px solid #ff7374;width:300px;margin:0 auto;border-style:dashed solid}.text-top p{font-size:16px;font-weight:300;max-width:700px;margin:0 auto;padding-top:20px;padding-bottom:20px;line-height:30px;color:#fff}.button{display:inline-block;padding:.5em 1em;background:#000;border:none;color:#fff;font-family:sans-serif;font-size:16px;cursor:pointer;margin-bottom:40px;text-transform:uppercase;outline:0}.button:hover{background-color:#ff7374;color:#fff}.button.is-checked,.button:active{background-color:#ff7374}.button.is-checked{color:#fff}.button-group{margin-bottom:20px}.button-group:after{content:'';display:block;clear:both}.button-group .button{border-radius:0;margin-left:0;margin-right:1px}.grid:after{content:'';display:block;clear:both}.element-item{position:relative;float:left;width:33%;padding:10px}.element-item img{width:100%;-webkit-box-shadow:10px 10px 5px 0 rgba(0,0,0,.75);-moz-box-shadow:10px 10px 5px 0 rgba(0,0,0,.75);box-shadow:10px 10px 5px 0 rgba(0,0,0,.75)}
+
